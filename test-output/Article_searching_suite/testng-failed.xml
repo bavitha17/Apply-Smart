@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Article_searching_suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Article_Searching_Clicking_Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="clickAds.clickAds">
+        <methods>
+          <include name="visitAndClick"/>
+          <include name="onlyVist"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- clickAds.clickAds -->
+    </classes>
+  </test> <!-- Article_Searching_Clicking_Tests(failed) -->
+</suite> <!-- Failed suite [Article_searching_suite] -->
